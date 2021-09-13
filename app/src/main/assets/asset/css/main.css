@@ -1,0 +1,111 @@
+/************************************
+**************HEADER*****************
+************************************/
+
+.navbar{background: #0e0e44;}
+.navbar-brand span{display: block;color: white;font-style: italic;}
+.navbar-brand a{text-decoration: none;}
+.navbar-brand .udd-mobile{
+	font-weight: bold;
+	font-size: 25px;
+	padding: 0;
+}
+.navbar-brand .pemkab{font-size: 15px;margin-top: -10px;}
+.navbar-right{
+	background: white;
+    margin: 0 -12px 0 0;
+    border-radius: 20px 0 0 20px;
+    width: 135px;
+    padding: 5px 0;
+}
+.navbar-right > span{
+	display: inline-block;
+	width: 50px;
+	background: center left no-repeat;}
+.navbar-right > span > span{
+	display: block;
+    line-height: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navbar-right span{color: black;font-size: 8px;}
+.navbar-right .blood{
+	background-image: url("../img/blood-icon.png");
+	background-size: 18px;
+    padding-left: 19px;
+    margin-left: 5px;
+}
+.navbar-right .blood span::first-letter{color: red;}
+.navbar-right .pmi{
+	background-image: url(../img/pmi-icon.png);
+    background-size: 30px;
+    padding: 0px 0 0 29px;
+    margin-left: -2px;
+}
+.title-page{text-align: center;}
+.title-page span {
+    background: #0e0e44;
+    font-style: italic;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/************************************
+**********   MENU     **************
+************************************/
+
+.menu .row {margin: 0;}
+.menu .row .col:first-child{border-right: 1px solid #0e0e44;}
+.menu .row .col {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.menu .row .col span{display: block;}
+.menu .row .col span:first-child{
+	background: url(../../asset/img/menu-bg.png) no-repeat;
+	display: inline-block;width: 100px;height: 100px;
+}
+.menu .row .col span:last-child{margin-bottom: 10px;}
+
+.menu .row .stok-darah span:first-child{}
+.menu .row .manfaat-donor span:first-child{background-position: -100px;}
+.menu .row .syarat-donor span:first-child{background-position: -200px;}
+.menu .row .ketentuan-bppd span:first-child{background-position: -300px 10px;}
+.menu .row .saya-ingin-donor span:first-child{background-position: -400px;}
+.menu .row .profile-udd span:first-child{background-position: -500px;}
+
+/************************************
+**********   STOCK DARAH*************
+************************************/
+
+.container > .table-stock-darah{border: 5px solid #0e0e44}
+.container > .table-stock-darah tr th,.container > .table-stock-darah tr td{
+	border: 3px solid #0e0e44;text-align: center;
+}
+.container > .table-stock-darah tr td{font-weight: bold;}
+.table-stock-darah {
+    overflow: hidden;
+    margin: 0;
+    border-radius: 35px;
+}
+.container > .tbl-container > table.table-stock-darah{margin-bottom: 0;}
+.c-link a {
+    text-decoration: none;
+    margin-right: 3px;color: #0e0e44;font-size: 13px;
+}
+.row > .sid-link {
+    background-color: #ff6766;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    padding: .5rem;
+}
+.row > .sid-link{margin-bottom: 1rem;}
+.row > .sid-link a{color:#0e0e44; display: flex;text-decoration: none;}
+.row > .sid-link i{font-size: 2rem;margin-right: 5px;}
+.row > .sid-link span{font-size: 10px;}
